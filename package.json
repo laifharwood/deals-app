@@ -1,0 +1,38 @@
+{
+  "name": "shopifystoredealsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://laifharwood@bitbucket.org/laifharwood/shopify-store-deals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/laifharwood/shopify-store-deals#readme",
+  "engines": {
+    "node": "4.2.2",
+    "npm": "2.14.7"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.3",
+    "jsdom": "*",
+    "node-cache": "^3.0.1",
+    "orientjs": "^2.1.0",
+    "shopify-node-api": "^1.6.0",
+    "shortid": "^2.2.4",
+    "stripe": "^4.4.0",
+    "winston": "^2.1.1",
+    "winston-loggly": "^1.3.1"
+  }
+}
